@@ -45,9 +45,9 @@ Final Score = Average(Test Case Scores) × 1000
 
 ## ⚖️ Benchmark Comparison
 
-| Feature | This Agent | Default Cursor (Claude) |
-|--------|-----------|------------------------|
-| Specialization | High (Colorization-focused) | General-purpose |
+| Feature | This Agent | General AI |
+|--------|-----------|------------|
+| Specialization | High | Low |
 | Response Consistency | High | Medium |
 | Domain Knowledge | Strong | Broad |
 | Custom Evaluation | Yes | No |
@@ -56,15 +56,7 @@ Final Score = Average(Test Case Scores) × 1000
 
 ## 🛠️ Setup Instructions
 
-Install dependencies:
 ```bash
 pip install python-dotenv
-```
-Run the agent:
-```bash
 python main.py
-```
-Run evaluation :
-```bash
 python evaluator.py
-```
